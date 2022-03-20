@@ -1,0 +1,79 @@
+* {
+    -fx-font-family: "Segoe UI Light";
+}
+
+#MainPane {
+    -fx-background-color: white;
+}
+
+#LoginPane {
+    -fx-background-color: #e6f0ff;
+}
+
+#RegisterPane {
+    -fx-background-color: #e6f4ff;
+}
+
+#EditPane {
+    -fx-background-color: #e6ffff;
+}
+
+#UserInfoVBox {
+    -fx-background-color: #a6d6dd55;
+}
+
+#IdLabel {
+    -fx-font-size: 16px;
+}
+
+#NameLabel {
+    -fx-font-size: 10px;
+}
+
+TextField {
+    -fx-border-width: 0px 0px 1.7px 0px;
+    -fx-border-color: lightblue;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, #00000011, 5, 0.5, 0, 2);
+}
+
+TextField:hover {
+    -fx-background-color: lightgray;
+}
+
+TextField:focused {
+    -fx-background-color: #efefef;
+}
+
+PasswordField {
+    -fx-border-width: 0px 0px 1.7px 0px;
+    -fx-border-color: lightblue;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, #00000011, 5, 0.5, 0, 2);
+}
+
+PasswordField:hover {
+    -fx-background-color: lightgray;
+}
+
+PasswordField:focused {
+    -fx-background-color: #efefef;
+}
+
+Label {
+    -fx-effect: dropshadow(three-pass-box, #00000039, 5, 0.5, 0, 2);
+}
+
+Button {
+    -fx-border-width: 0px;
+    -fx-background-color: #f0f0ff;
+    -fx-effect: dropshadow(three-pass-box, #00000011, 5, 0.5, 0, 1);
+}
+
+Button:hover {
+    -fx-background-color: #e0e0ff;
+}
+
+Button:pressed {
+    -fx-background-color: #eeeeff;
+}
