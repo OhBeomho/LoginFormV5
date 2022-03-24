@@ -158,7 +158,7 @@ public class Controller implements Initializable {
         }
 
         for (Account account : accounts) {
-            if (id.equals(account.getId())) {
+            if (id.equalsIgnoreCase(account.getId())) {
                 if (password.equals(HexString.toNormalString(account.getPassword()))) {
                     showMain();
                     clearFields();
